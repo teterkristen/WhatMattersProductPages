@@ -1,0 +1,91 @@
+<!DOCTYPE css>
+
+/* Set default styles for the whole document */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #1F6D9E, #40C5A4);
+    color: #221B38;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #221B38;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+/* Style the article container */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Style each article */
+article {
+  margin: 20px;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the heading in each article */
+article h2 {
+    background: linear-gradient(to bottom, #1F6D9E, #40C5A4);
+  color: #221B38;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Style the image in each article */
+article img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the text in each article */
+article p {
+  padding: 10px;
+  text-align: justify;
+}
+
+/* Style the footer */
+footer {
+  background-color: #1F6D9E;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
